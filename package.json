@@ -7,15 +7,13 @@
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
     "lint": "vue-cli-service lint",
-
-    "start": "DEBUG=true electron .",
-
+    "start": "electron .",
     "dev:windows": "electron-builder --windows --dir",
     "pro:windows": "electron-builder --windows"
-
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "electron-db": "^0.15.7",
     "vue": "^3.2.13",
     "vue-router": "^4.5.0"
   },
